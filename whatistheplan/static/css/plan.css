@@ -30,13 +30,7 @@ html, body {
 
 #content-container {
   width: 100%;
-  min-height: calc(100% - 103px);
-  padding-top: 53px;
-  margin-top: 53px;
-  top: 53px;
-  padding-bottom: 0px
-  bottom: 0;
-  top: 0;
+  margin: 53px 0px;
 }
 
 iframe, object, embed {
@@ -95,6 +89,7 @@ a.custom-link {
   margin-bottom: 0px;
   left: 0px;
   right: 0px;
+  position: fixed;
   bottom: 0;
   background: #333333;
   color: #F3F3F3;
