@@ -16,8 +16,8 @@ def about(request):
     return render_to_response('about.html', {}, context_instance=context)
 
 def twitch(request):
-		context = RequestContext(request)
-		return render_to_response('twitch.html', {}, context_instance=context)
+    context = RequestContext(request)
+    return render_to_response('twitch.html', {}, context_instance=context)
 
 def signup(request):
     context = RequestContext(request)
